@@ -1,0 +1,6 @@
+a = float(input("Ingrese el primer número: "))
+b = float(input("Ingrese el segundo número: "))
+print(f"Suma: {a + b}")
+print(f"Resta: {a - b}")
+print(f"Multiplicación: {a * b}")
+print(f"División: {a / b if b != 0 else 'No se puede dividir entre cero'}")
